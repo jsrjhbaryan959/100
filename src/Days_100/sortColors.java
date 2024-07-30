@@ -14,6 +14,7 @@ public class sortColors {
             nums[i] = sc.nextInt();
         }
 
+        //Dutch National Flag Algorithm
         int low = 0;
         int mid = 0;
         int high = n-1;
