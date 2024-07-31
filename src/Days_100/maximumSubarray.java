@@ -11,6 +11,8 @@ public class maximumSubarray {
             nums[i] = sc.nextInt();
         }
 
+        //Kadene's Algorithm
+
         int currentsum = nums[0];
         int max = nums[0];
         for (int i = 1; i < n; i++) {
