@@ -31,5 +31,6 @@ public class findTargetIndicesAfterSortingArray {
             tcount--;
         }
         System.out.println(ans);
+
     }
 }
