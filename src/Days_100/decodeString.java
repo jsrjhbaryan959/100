@@ -27,7 +27,7 @@ public class decodeString {
             } else {
                 String s = "";
                 while (!mainStack.peek().equals("[")) {
-                    str = mainStack.pop() + str;
+                    s = mainStack.pop() + s;
                 }
                 mainStack.pop();
 
@@ -36,7 +36,7 @@ public class decodeString {
                 StringBuilder sb = new StringBuilder("");
 
                 while (repeationNumber > 0) {
-                    sb.append(str);
+                    sb.append(s);
                     repeationNumber--;
                 }
 
