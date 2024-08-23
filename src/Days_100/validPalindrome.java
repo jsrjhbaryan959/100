@@ -18,7 +18,7 @@ public class validPalindrome {
             if(ch >= 'a' && ch <= 'z'){
                 sb.append(ch);
             }
-            else if (ch >= 'A' && ch <+ 'Z') {
+            else if (ch >= 'A' && ch <= 'Z') {
                 ch = (char) (ch - 'A' + 'a');
                 sb.append(ch);
             }
