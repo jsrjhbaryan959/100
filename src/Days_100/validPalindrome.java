@@ -28,7 +28,7 @@ public class validPalindrome {
         }
 
         int start = 0;
-        int end = sb.length()-1;
+        int end = sb.length()-1 ;
 
         while(start < end){
             int sChar = sb.charAt(start);
