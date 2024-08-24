@@ -22,6 +22,6 @@ public class minimumAddToMakeParenthesesValid {
                 count++;
             }
         }
-        System.out.println(count+st.size());
+        System.out.println(count + st.size());
     }
 }
