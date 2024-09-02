@@ -26,5 +26,23 @@ public class palindromeLinkedList {
 //        ptr2 = ptr2.next;
 //        System.out.println("true");
 //    }
+
+//    ListNode ptr = head;
+//    while(ptr != null){
+//        st.push(ptr.val);
+//    }
+//
+//    ListNode ptr2 = head;
+//    while(ptr2 != null){
+//        int val1 = ptr.val;
+//        int val2 = st.pop();
+//
+//        if(val1 != val2){
+//            System.out.println("false");
+//        }
+//        ptr2 = ptr2.next;
+//        System.out.println("false");
+//    }
+
 }
 
