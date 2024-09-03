@@ -31,5 +31,6 @@ public class mergeTwoSortedLists {
             dummy.next = ptr1;
         }
         System.out.println(ans.next);
+
     }
 }
